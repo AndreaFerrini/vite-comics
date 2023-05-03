@@ -11,7 +11,9 @@
 </script>
 
 <template>
-
+  <div>
+    <HeaderNav/>
+  </div>
 </template>
 
 <style lang="scss">
