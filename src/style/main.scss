@@ -42,3 +42,19 @@ main{
     color: white;
     height: 100px;
 }
+
+.Links {
+    background-color: rgb(2,130,249);
+    div{
+        div{
+            img{
+                height: 50px;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+                padding-left: 1rem;
+            }
+        }
+    }
+}
