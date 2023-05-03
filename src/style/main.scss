@@ -6,6 +6,18 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Lato&family=Raleway&display=swap');
+
+body {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -13,6 +25,10 @@ ul {
     a{
     display: flex;
     text-decoration: none;
-    color: black;                   
-}
+    color: black;
+    padding: 15px;             
+    }
+    :hover{
+        border-bottom: 1px solid #0074e8;
+    }
 }

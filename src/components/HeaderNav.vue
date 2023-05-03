@@ -65,8 +65,8 @@
 <template>
 
 <header class="container">
-    <nav class="d-flex justify-content-between py-4 align-items-center">
-        <div>
+    <nav>
+        <div class="d-flex justify-content-between py-3 align-items-center text-uppercase">
             <img src="../assets/img/dc-logo.png" alt="logo">
             <ul>
                 <li v-for="(elem, index) in menuLinks" :key="index">
