@@ -12,9 +12,13 @@ body {
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
+header {
+    height: 100px;
+}
+
 .container {
     width: 80%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -26,9 +30,15 @@ ul {
     display: flex;
     text-decoration: none;
     color: black;
-    padding: 15px;             
+    padding: 15px;      
     }
     :hover{
         border-bottom: 1px solid #0074e8;
     }
+}
+
+main{
+    background-color: rgb(28,28,28);
+    color: white;
+    height: 100px;
 }
