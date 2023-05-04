@@ -32,10 +32,10 @@ ul {
         display: flex;
         text-decoration: none;
         color: black;
-        padding: 15px; 
+        padding: 14px; 
         }
         :hover{
-            border-bottom: 1px solid #0074e8;
+            border-bottom: 2px solid #0074e8;
         }
         :hover a {
             color: #0074e8;
@@ -48,18 +48,8 @@ main{
     height: 100px;
 }
 
-.Links {
-    background-color: rgb(2,130,249);
-    div{
-        div{
-            img{
-                height: 50px;
-            }
-            a{
-                color: white;
-                text-decoration: none;
-                padding-left: 1rem;
-            }
-        }
+div{
+    h2{
+        padding: 20px 0;
     }
 }

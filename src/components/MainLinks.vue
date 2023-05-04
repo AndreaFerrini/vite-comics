@@ -2,37 +2,71 @@
 
 export default{
   name: "MainLinks",
+    data(){
+        return{
+            icons: [
+                {
+                    nome: `digital Comic`,
+                    path: `buy-comics-digital-comics.png`
+                },
+                {
+                    nome: `dc merchandise`,
+                    path: `buy-comics-merchandise.png`
+                },
+                {
+                    nome: `subscriptions`,
+                    path: `buy-comics-subscriptions.png`
+                },
+                {
+                    nome: `comic shop locator`,
+                    path: `buy-comics-shop-locator.png`
+                },
+                {
+                    nome: `dc power visa`,
+                    path: `buy-dc-power-visa.svg`
+                }
+            ]
+        }
+    }
 }
 
 </script>
 
 <template>
     <div class="Links">
-        <div class="container d-flex justify-content-between align-items-center py-5">
-            <div class="text-uppercase">
-                <img src="../assets/img/buy-comics-digital-comics.png" alt="#">
-                <a href="#">digital comics</a>
-            </div>
-            <div class="text-uppercase">
-                <img src="../assets/img/buy-comics-merchandise.png" alt="#">
-                <a href="#">dc merchandise</a>
-            </div>
-            <div class="text-uppercase">
-                <img src="../assets/img/buy-comics-subscriptions.png" alt="#">
-                <a href="#">subscriptions</a>
-            </div>
-            <div class="text-uppercase">
-                <img src="../assets/img/buy-comics-shop-locator.png" alt="#">
-                <a href="#">comic shop locator</a>
-            </div>
-            <div class="text-uppercase">
-                <img src="../assets/img/buy-dc-power-visa.svg" alt="#">
-                <a href="#">dc power visa</a>
-            </div>
+        <div class="container py-5 text-uppercase">
+            <ul class="d-flex justify-content-between align-items-center">
+                <li v-for="(elem, index) in icons" :key="index">
+                    <img :src="`src/assets/img/${elem.path}`" alt="nome icona">
+                    <span class="icon-text">{{ elem.nome }}</span>
+                </li>
+            </ul>
         </div>
     </div>  
 </template>
 
-<style scoped>
+<style lang="scss">
+.Links {
+    background-color: rgb(2,130,249);
+    padding: 5px 0;
+    .container{
+        margin: 0 auto;
+        width: 80%;
+        ul{
+            li{
+                display: flex;
+                align-items: center;
+                list-style: none;
+                img{
+                    height: 70px;
+                    margin-right: 10px;
+                }
+                span{
+                    color: white;
+                }
+            }
+        }
+    }
+}
 
 </style>
