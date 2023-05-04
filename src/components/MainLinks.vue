@@ -26,13 +26,13 @@ export default{
                 <a href="#">comic shop locator</a>
             </div>
             <div class="text-uppercase">
-                <img src="../assets/img/buy-comics-subscriptions.png" alt="#">
+                <img src="../assets/img/buy-dc-power-visa.svg" alt="#">
                 <a href="#">dc power visa</a>
             </div>
         </div>
     </div>  
 </template>
 
-<style>
+<style scoped>
 
 </style>

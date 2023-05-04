@@ -1,7 +1,7 @@
 <script>
 
 export default{
-  name: "MainCard",
+  name: "MainCards",
 }
 
 </script>
@@ -14,5 +14,5 @@ export default{
     </main>
 </template>
 
-<style>
+<style scoped>
 </style>

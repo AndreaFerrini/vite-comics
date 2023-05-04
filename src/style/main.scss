@@ -25,16 +25,21 @@ header {
 ul {
     list-style-type: none;
     display: flex;
-    
-    a{
-    display: flex;
-    text-decoration: none;
-    color: black;
-    padding: 15px;      
+    li{
+        line-height: 100px;
     }
-    :hover{
-        border-bottom: 1px solid #0074e8;
-    }
+        a{
+        display: flex;
+        text-decoration: none;
+        color: black;
+        padding: 15px; 
+        }
+        :hover{
+            border-bottom: 1px solid #0074e8;
+        }
+        :hover a {
+            color: #0074e8;
+        }
 }
 
 main{

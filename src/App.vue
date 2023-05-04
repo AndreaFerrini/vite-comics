@@ -1,14 +1,14 @@
 <script>
 
   import HeaderNav from "./components/HeaderNav.vue"
-  import MainCard from "./components/MainCard.vue"
+  import MainCards from "./components/MainCards.vue"
   import MainLinks from "./components/MainLinks.vue"
 
   export default{
     name: "App",
     components: {
       HeaderNav,
-      MainCard,
+      MainCards,
       MainLinks,
     }
   }
@@ -17,7 +17,7 @@
 <template>
   <div>
     <HeaderNav/>
-    <MainCard/>
+    <MainCards/>
     <MainLinks/>
   </div>
 </template>

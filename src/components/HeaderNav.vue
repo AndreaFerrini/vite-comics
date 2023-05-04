@@ -67,7 +67,7 @@
 <header class="container">
     <nav>
         <div class="d-flex justify-content-between py-3 align-items-center text-uppercase">
-            <img src="../assets/img/dc-logo.png" alt="logo">
+            <img src="../assets/img/dc-logo.png" alt="logo dc">
             <ul>
                 <li v-for="(elem, index) in menuLinks" :key="index">
                     <a :class=" elem.current ? `active` : `` " :href="elem.url"> 
@@ -84,5 +84,7 @@
 </template>
 
 
-<style>
+<style scoped>
+
+
 </style>
