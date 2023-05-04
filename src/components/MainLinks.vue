@@ -45,7 +45,7 @@ export default{
     </div>  
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .Links {
     background-color: rgb(2,130,249);
     padding: 5px 0;

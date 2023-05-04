@@ -4,6 +4,7 @@
   import MainCards from "./components/MainCards.vue"
   import MainLinks from "./components/MainLinks.vue"
   import MainGraphics from "./components/MainGraphics.vue"
+  import FooterSocial from "./components/FooterSocial.vue"
 
   export default{
     name: "App",
@@ -12,6 +13,7 @@
       MainCards,
       MainLinks,
       MainGraphics,
+      FooterSocial
     }
   }
 </script>
@@ -22,6 +24,7 @@
     <MainCards/>
     <MainLinks/>
     <MainGraphics/>
+    <FooterSocial/>
   </div>
 </template>
 
