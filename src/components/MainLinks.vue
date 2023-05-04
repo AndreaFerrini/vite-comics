@@ -37,7 +37,7 @@ export default{
         <div class="container py-5 text-uppercase">
             <ul class="d-flex justify-content-between align-items-center">
                 <li v-for="(elem, index) in icons" :key="index">
-                    <img :src="`src/assets/img/${elem.path}`" alt="nome icona">
+                    <img :src="`/img/${elem.path}`" alt="nome icona">
                     <span class="icon-text">{{ elem.nome }}</span>
                 </li>
             </ul>
