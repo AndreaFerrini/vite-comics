@@ -14,5 +14,17 @@ export default{
     </main>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+
+main{
+    background-color: rgb(28,28,28);
+    color: white;
+    height: 100px;
+}
+
+div{
+    h2{
+        padding: 20px 0;
+    }
+}
 </style>

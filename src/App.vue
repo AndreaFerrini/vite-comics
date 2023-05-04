@@ -3,6 +3,7 @@
   import HeaderNav from "./components/HeaderNav.vue"
   import MainCards from "./components/MainCards.vue"
   import MainLinks from "./components/MainLinks.vue"
+  import MainGraphics from "./components/MainGraphics.vue"
 
   export default{
     name: "App",
@@ -10,6 +11,7 @@
       HeaderNav,
       MainCards,
       MainLinks,
+      MainGraphics,
     }
   }
 </script>
@@ -19,6 +21,7 @@
     <HeaderNav/>
     <MainCards/>
     <MainLinks/>
+    <MainGraphics/>
   </div>
 </template>
 

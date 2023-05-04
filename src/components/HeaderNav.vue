@@ -84,7 +84,35 @@
 </template>
 
 
-<style scoped>
+<style scoped lang="scss">
 
+header {
+    height: 100px;
+}
 
+.container {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    li{
+        line-height: 100px;
+    }
+        a{
+        display: flex;
+        text-decoration: none;
+        color: black;
+        padding: 14px; 
+        }
+        :hover{
+            border-bottom: 2px solid #0074e8;
+        }
+        :hover a {
+            color: #0074e8;
+        }
+}
 </style>
