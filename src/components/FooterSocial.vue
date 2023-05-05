@@ -50,6 +50,7 @@ export default{
             color: white;
             text-decoration: none;
             border: 2px solid rgb(2,130,249);
+            padding: 0 10px;
         }
         .footer-social-icon{
             display: flex;

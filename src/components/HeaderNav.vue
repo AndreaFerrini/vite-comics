@@ -67,7 +67,7 @@
 <header class="container">
     <nav>
         <div class="d-flex justify-content-between py-3 align-items-center text-uppercase">
-            <img src="public\img\dc-logo.png" alt="logo dc">
+            <img src="\img\dc-logo.png" alt="logo dc">
             <ul>
                 <li v-for="(elem, index) in menuLinks" :key="index">
                     <a :class=" elem.current ? `active` : `` " :href="elem.url"> 
@@ -92,15 +92,15 @@ header {
 
 .container {
     width: 80%;
-    max-width: 1280px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     li{
-        line-height: 100px;
+        line-height: 103px;
     }
         a{
         display: flex;

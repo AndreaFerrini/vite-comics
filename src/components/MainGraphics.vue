@@ -114,7 +114,6 @@ export default{
 .copertina {
     background-image: url( "/img/footer-bg.jpg" );
     color: white;
-    height: 400px;
 
     .container{
         background-image: url( "/img/dc-logo-bg.png" );
